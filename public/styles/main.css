@@ -1,21 +1,37 @@
+#header {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
 .cards {
     display: flex;
     margin: 20px 0;
-    width: 100%;
-  }
-  .card-item {
+    justify-content: center;
+    align-items: center;
+}
+
+.card-item {
     width: 100%;
     padding: 5px 20px 20px;
-    border: 1px solid rgb(232, 232, 232);
+    border: 1px solid rgb(0, 0, 0);
     background-color: white;
     border-radius: 5px;
-  }
-  .card-info {
+}
+  
+.card-info {
     margin-top: 40px;
     display: flex;
     justify-content: space-between;
-  }
-  .card-activity {
+}
+
+.card-activity {
     line-height: 1.2;
     margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background-color: pink;
 }
