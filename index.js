@@ -5,7 +5,7 @@ const app = express ();
 const port = 3000;
 const API_URL = "https://api.kanye.rest"
 
-app.use(express.static("public"));
+app.use(express.static("./public"));
 
 app.get("/", async (req, res) => {
     try {
