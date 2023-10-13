@@ -8,10 +8,11 @@
 
 .cards {
     display: flex;
-    margin: 5px 0;
+    margin: 5px 15px;
     justify-content: center;
     align-items: center;
 }
+
 
 .card-item {
     width: 40%;
@@ -24,9 +25,6 @@
   
 .card-activity {
     line-height: 1.2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .kanyepic {
@@ -38,4 +36,17 @@
 
 body {
     background-color: pink;
+}
+
+.btn {
+    width: 5%;
+    top:50%;
+    background-color:#0a0a23;
+    color: #fff;
+    border:none;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }

@@ -15,7 +15,7 @@
         <img class="kanyepic" src="/images/kanye.jpg" alt="">
     </div>
 
-    <div>  
+    <div class="outerbox" >  
         <section id="cards" class="cards">
         <% locals.data %>
         <article class="card-item">
@@ -23,5 +23,10 @@
             <%= data.quote %>
       </section>
     </div>  
+
+    <button class="btn" onClick="window.location.href=window.location.href">
+        New Quote
+    </button>
+
 </body>
 </html>
